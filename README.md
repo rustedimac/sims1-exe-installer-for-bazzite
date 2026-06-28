@@ -26,6 +26,13 @@ subfolder named `<filename>_extracted`.
 
 **Requirements:** `7z` must be installed (`sudo dnf install p7zip p7zip-plugins` on Bazzite).
 
+Make both scripts executable before first use:
+```bash
+chmod +x extract_exes.sh
+```
+
+The Python script doesn't need it since you invoke it via `python3` directly.
+
 ### Usage
 
 ```bash

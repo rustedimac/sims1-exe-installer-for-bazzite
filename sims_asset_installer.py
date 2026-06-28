@@ -148,7 +148,6 @@ def parse_script_and_move() -> None:
     base_dir  = input("Enter the absolute path to your extracted folders directory:\n> ").strip()
     game_path = input(
         "\nEnter the absolute path to your top-level game installation directory:\n"
-        "(e.g., /home/johnkwon/Desktop/Link to The Sims Legacy Collection)\n> "
     ).strip()
 
     base_dir  = base_dir.strip("'\"")

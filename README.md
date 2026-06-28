@@ -85,10 +85,10 @@ You will be prompted for two paths:
 
 ```
 Enter the absolute path to your extracted folders directory:
-> /home/johnkwon/Downloads/Maxis EA Official - skins
+> /home/USERNAME/Downloads/Maxis EA Official - skins
 
 Enter the absolute path to your top-level game installation directory:
-> /home/johnkwon/Desktop/Link to The Sims Legacy Collection
+> /home/USERNAME/Desktop/Link to The Sims Legacy Collection
 ```
 
 The script then processes every subfolder that contains a `script.txt`,
@@ -158,7 +158,7 @@ Folders listed under skipped/failed will show one of these reasons:
 ```bash
 # 1. Extract all EXEs in a pack folder
 ./extract_exes.sh
-# > Enter folder path: /home/johnkwon/Downloads/Maxis EA Official - skins
+# > Enter folder path: /home/USERNAME/Downloads/Maxis EA Official - skins
 
 # 2. Dry run to verify paths before committing
 python3 sims_asset_installer.py --test

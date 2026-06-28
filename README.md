@@ -34,7 +34,7 @@ subfolder named `<filename>_extracted`.
 
 You will be prompted:
 ```
-Enter folder path: /home/johnkwon/Downloads/Maxis EA Official - skins
+Enter folder path: /home/USER/Downloads/Maxis EA Official - skins
 ```
 
 Paths with or without surrounding quotes are both accepted. Each EXE
